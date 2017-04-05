@@ -1,0 +1,872 @@
+
+?<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <meta name="description" content="Simple Icon Hover Effects with CSS Transitions and Animations" />
+    <meta name="keywords" content="icons, hover, round, circular, transition, animation, css3" />
+    <meta name="author" content="Codrops" />
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/pf/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/wow/animate.css" />
+    <script src="css/wow/wow.js"></script>
+    <script>
+        wow = new WOW(
+{
+    animateClass: 'animated',
+    offset: 100
+}
+); wow.init();
+    </script>
+    <style type="text/css">
+        .boxShadow {
+            -webkit-box-shadow: 0px 1px 3px 0px rgba(140, 145, 147, 0.8);
+            -moz-box-shadow: -0px 1px 3px 0px rgba(140, 145, 147, 0.8);
+            box-shadow: 0px 1px 3px 0px rgba(140, 145, 147, 0.8);
+        }
+
+        .sdgm {
+            border-top: 5px solid #23c6c8;
+        }
+
+            .sdgm .s {
+                border-bottom: 2px solid #23c6c8;
+                border-top: 2px solid #23c6c8;
+                padding: 0px 4px;
+            }
+
+            .sdgm .text-left span {
+                color: #23c6c8;
+                font-weight: bold;
+            }
+
+        .dgm {
+            border-top: 5px solid #a164ec;
+        }
+
+            .dgm .s {
+                border-bottom: 2px solid #a164ec;
+                border-top: 2px solid #a164ec;
+                padding: 0px 4px;
+            }
+
+            .dgm .text-left span {
+                color: #a164ec;
+                font-weight: bold;
+            }
+
+        .agm {
+            border-top: 5px solid #32A564;
+        }
+
+            .agm .s {
+                border-bottom: 2px solid #32A564;
+                border-top: 2px solid #32A564;
+                padding: 0px 4px;
+            }
+
+            .agm .text-left span {
+                color: #32A564;
+                font-weight: bold;
+            }
+
+        .sman {
+            border-top: 5px solid blue;
+        }
+
+            .sman .s {
+                border-bottom: 2px solid blue;
+                border-top: 2px solid blue;
+                padding: 0px 4px;
+            }
+
+            .sman .text-left span {
+                color: blue;
+                font-weight: bold;
+            }
+
+        .man {
+            border-top: 5px solid #A9A9F5;
+        }
+
+            .man .s {
+                border-bottom: 2px solid #A9A9F5;
+                border-top: 2px solid #A9A9F5;
+                padding: 0px 4px;
+            }
+
+            .man .text-left span {
+                color: #A9A9F5;
+                font-weight: bold;
+            }
+
+        .aman {
+            border-top: 5px solid #00c0a5;
+        }
+
+            .aman .s {
+                border-bottom: 2px solid #00c0a5;
+                border-top: 2px solid #00c0a5;
+                padding: 0px 4px;
+            }
+
+            .aman .text-left span {
+                color: #00c0a5;
+                font-weight: bold;
+            }
+
+        .exes {
+            border-top: 5px solid #2196f3;
+        }
+
+            .exes .s {
+                border-bottom: 2px solid #2196f3;
+                border-top: 2px solid #2196f3;
+                padding: 0px 4px;
+            }
+
+            .exes .text-left span {
+                color: #2196f3;
+                font-weight: bold;
+            }
+
+        .exe {
+            border-top: 5px solid #83c44e;
+        }
+
+            .exe .s {
+                border-bottom: 2px solid #83c44e;
+                border-top: 2px solid #83c44e;
+                padding: 0px 4px;
+            }
+
+            .exe .text-left span {
+                color: #83c44e;
+                font-weight: bold;
+            }
+
+        .soff {
+            border-top: 5px solid #ffac13;
+        }
+
+            .soff .s {
+                border-bottom: 2px solid #ffac13;
+                border-top: 2px solid #ffac13;
+                padding: 0px 4px;
+            }
+
+            .soff .text-left span {
+                color: #ffac13;
+                font-weight: bold;
+            }
+
+        .off {
+            border-top: 5px solid Skyblue;
+        }
+
+            .off .s {
+                border-bottom: 2px solid Skyblue;
+                border-top: 2px solid Skyblue;
+                padding: 0px 4px;
+            }
+
+            .off .text-left span {
+                color: Skyblue;
+                font-weight: bold;
+            }
+
+        .joff {
+            border-top: 5px solid yellow;
+        }
+
+            .joff .s {
+                border-bottom: 2px solid yellow;
+                border-top: 2px solid yellow;
+                padding: 0px 4px;
+            }
+
+            .joff .text-left span {
+                color: yellow;
+                font-weight: bold;
+            }
+
+        .container > section {
+            padding: 12em 3em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Navigation -->
+        
+		<!-- <div class="codrops-top clearfix">
+            <a class="codrops-icon codrops-icon-prev top_a" href="home.html"><span>Home</span></a>
+            <span class="right"><a class="codrops-icon codrops-icon-drop top_a" href="Projects.html"><span>Projects</span></a></span>
+        </div> 
+		-->
+        <header style="padding-bottom: 0px; padding-top: 0px; box-shadow: 0 8px 6px -6px #DDDEDE; ">
+            <h1>IT Department<span>Team Members</span></h1>
+            <nav style="padding-bottom: 0px; padding-top: 0px;" id="codrops-demos" class="codrops-demos">
+                <a href="#set-11">Software Team</a>
+                <a href="#set-12">Hardware Team</a>
+            </nav>
+        </header>
+        <section id="set-11">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box boxShadow  wow bounceIn " data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter sdgm">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20151047.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>MD. SAIFUL ISLAM</h4>
+                                            <span class="s">Sr. DGM [Head of IT]</span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 940</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt " aria-hidden="true"></span><b> : 265</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01713094377</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter dgm">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20151047.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>SOJOL SARTY</h4>
+                                            <span class="s">
+                                                DGM.
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b> : 1380</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 286</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01713094380</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter agm">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20070301.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>KAWSAR AHMED</h4>
+                                            <span class="s">
+                                                AGM.
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20070301</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 303</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01713094387</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter man">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20070505.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>Pranab Kumar Goswami</h4>
+                                            <span class="s">Sr. Manager</span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20070505</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : </b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01937400873</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter  man">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20151001.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>Md Rofiqul Islam</h4>
+                                            <span class="s">Manager</span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20151001</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> :255 </b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : </b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter  man">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20151048.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>Md Abdul Karim</h4>
+                                            <span class="s">Manager</span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20151048</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 255 </b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01979096308</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter  exes">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20130204.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>A.K.M SAZZAD HASAN</h4>
+                                            <span class="s">Sr. Executive</span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20130204</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 283</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01919090355</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter  exes">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20130209.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>ARIFUL ISLAM</h4>
+                                            <span class="s">Sr. Executive</span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20130209</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 226</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01919090352</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter exe">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20130919.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>Md. Arifur Rahman</h4>
+                                            <span class="s">
+                                                EXECUTIVE
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20130919</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 283</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01617200587</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter exe">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20150201.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4>Md Mahammud Ali</h4>
+                                            <span class="s">
+                                                EXECUTIVE
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20150201</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 226</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01751386316</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter exe">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20150213.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h4 class="success">Abdulla Yousuf</h4>
+
+                                            <span class="s">
+                                                EXECUTIVE
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20150213</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 226</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01816696924</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter exe">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20140550.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h4>Alimuddin</h4>
+                                            <span class="s">
+                                                EXECUTIVE
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20140550</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 266</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01914496918</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter exe">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20140551.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h4>Ajoy Kumar Paul</h4>
+                                            <span class="s">
+                                                EXECUTIVE
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20140551</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 226</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01914252639</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter exe">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20140603.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h4>Md Nazmul Huda</h4>
+                                            <span class="s">
+                                                EXECUTIVE
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20140603</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 226</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01914252638</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box boxShadow  wow bounceIn " data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter soff">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20140943.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h4>Durlove Roy</h4>
+                                            <span class="s">
+                                                Sr. OFFICER
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20140943</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 283</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01735279464</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="box boxShadow  wow bounceIn " data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter soff">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20140954.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h4>Moniruzzaman</h4>
+
+                                            <span class="s">
+                                                Sr. OFFICER
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20140954</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 283</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01737984202</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="box boxShadow  wow bounceIn " data-wow-delay="0.4s">
+                                <div class="box-gray aligncenter soff">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="icon">
+                                                <img class="img-circle img-responsive img-center" src="emp/20150901.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <h4>Md Sagor Ali</h4>
+                                            <span class="s">
+                                                Sr. OFFICER
+                                            </span>
+                                            <div class="text-left">
+                                                <span>ID </span><b>  : 20150901</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 283</b>
+                                            </div>
+                                            <div class="text-left">
+                                                <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01979096297</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </section>
+        <section id="set-12">
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                            <div class="box-gray aligncenter  man">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="icon">
+                                            <img class="img-circle img-responsive img-center" src="emp/1396.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h4 class="success">Ashim Halder</h4>
+                                        <span class="s">
+                                            Manager
+                                        </span>
+                                        <div class="text-left">
+                                            <span>ID </span><b>  : 1396</b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 275</b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01713094393</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                            <div class="box-gray aligncenter aman">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="icon">
+                                            <img class="img-circle img-responsive img-center" src="emp/20070712.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h4>Md. Habibur Rashid</h4>
+                                        <span class="s">
+                                            Asst.Manager
+                                        </span>
+                                        <div class="text-left">
+                                            <span>ID </span><b>  : 20070712</b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 257</b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01917702980</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box boxShadow wow bounceIn" data-wow-delay="0.4s">
+                            <div class="box-gray aligncenter  exes">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="icon">
+                                            <img class="img-circle img-responsive img-center" src="emp/20101103.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h4>MD. ATIUR RAHMAN </h4>
+                                        <span class="s">
+                                            Ast. Manager
+                                        </span>
+                                        <div class="text-left">
+                                            <span>ID </span><b>  : 20101103</b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : 257</b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01919094993</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="box boxShadow  wow bounceIn" data-wow-delay="0.4s">
+                            <div class="box-gray aligncenter soff">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="icon">
+                                            <img class="img-circle img-responsive img-center" src="emp/20130302.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h4>Rezaul Hoq</h4>
+                                        <span class="s">
+                                            Executive
+                                        </span>
+                                        <div class="text-left">
+                                            <span>ID </span><b>  : 20130302</b>
+                                        </div>
+                                        <div class="text-left">
+
+                                            <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : </b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01818901601</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="box boxShadow wow bounceIn" data-wow-delay="0.4s">
+                            <div class="box-gray aligncenter  off">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="icon">
+                                            <img class="img-circle img-responsive img-center" src="emp/20131002.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <h4>Taj Uddin Ahmed</h4>
+                                        <span class="s">
+                                            Sr. OFFICER
+                                        </span>
+                                        <div class="text-left">
+                                            <span>ID </span><b>  : 20131002</b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><b> : </b>
+                                        </div>
+                                        <div class="text-left">
+                                            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span><b> : 01919090466</b>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!-- /container -->
+</body>
+</html>
